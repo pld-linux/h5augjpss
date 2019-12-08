@@ -2,7 +2,7 @@ Summary:	Modify JPSS files to allow use in netCDF-based applications
 Summary(pl.UTF-8):	Modyfikowanie plików JPSS dla kompatybilności z aplikacjami opartymi na netCDF
 Name:		h5augjpss
 Version:	1.0.0
-Release:	4
+Release:	5
 Group:		Applications/File
 License:	BSD-like, changed sources must be marked
 Source0:	http://www.hdfgroup.org/ftp/HDF5/projects/jpss/h5augjpss/%{name}-%{version}.tar.gz
