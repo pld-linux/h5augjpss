@@ -8,6 +8,7 @@ License:	BSD-like, changed sources must be marked
 Source0:	http://www.hdfgroup.org/ftp/HDF5/projects/jpss/h5augjpss/%{name}-%{version}.tar.gz
 # Source0-md5:	5435f4dee00fcc8bbe30d9bed421c812
 Patch0:		%{name}-cmake.patch
+Patch1:		libdir.patch
 URL:		http://www.hdfgroup.org/projects/npoess/h5augjpss_index.html
 BuildRequires:	hdf5-devel >= 1.8
 BuildRequires:	libxml2-devel
@@ -36,6 +37,7 @@ programu h5edit lub HDFView.
 %prep
 %setup -q
 %patch0 -p1
+%patch1 -p1
 
 %build
 %cmake .

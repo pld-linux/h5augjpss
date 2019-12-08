@@ -1,0 +1,11 @@
+--- h5augjpss-1.0.0/config/cmake/FindHDF5.cmake~	2011-06-23 19:48:48.000000000 +0200
++++ h5augjpss-1.0.0/config/cmake/FindHDF5.cmake	2019-12-08 23:26:04.751949531 +0100
+@@ -63,7 +63,7 @@
+     HINTS ${_HDF5_HINTS}
+     PATHS ${_HDF5_PATHS}
+     PATH_SUFFIXES
+-        lib/cmake/hdf5
++        lib${LIB_SUFFIX}/cmake/hdf5
+         share/cmake/hdf5
+ )
+ 
